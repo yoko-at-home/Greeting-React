@@ -10,7 +10,12 @@ const Story = () => {
   return (
     <section className='section-stories'>
       <div className='bg-video'>
-        <video className='bg-video__content' autoplay='' muted='' loop=''>
+        <video
+          className='bg-video__content'
+          autoplay='true'
+          muted='true'
+          loop='true'
+        >
           <source src={MP4} type='video/mp4' />
           <source src={Webm} type='video/webm' />
           Your browser is not supported!
