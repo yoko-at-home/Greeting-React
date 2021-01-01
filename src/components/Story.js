@@ -1,5 +1,5 @@
 import React from 'react'
-import './Story.styles.min.css';
+import './Story.styles.css';
 
 import Yoko from '../img/nat-8.jpeg'
 import MP4 from '../img/video.mp4'
@@ -28,7 +28,7 @@ const Story = () => {
       </div>
 
       <div className='u-center-text u-margin-bottom-big' id='section-profile'>
-        <h2 className='heading-secondary'>🎄 Merry Christmas!!🎄</h2>
+        <h2 className='heading-secondary'>明けましておめでとうございます</h2>
       </div>
 
       <div className='row'>
@@ -39,22 +39,11 @@ const Story = () => {
           </figure>
           <div className='story__text'>
             <h3 className='heading-tertiary u-margin-bottom-small'>
-              2020 was Covid Job Loss in short...
+              お元気ですか...
             </h3>
-            <p>
-              2020年は一言で言えばコロナ失業！3月末で派遣契約がきれ、そのまま緊急事態宣言へと突入していった5月。外出も憚られるような気がしてそのままお家に留まることになりました。
-              でも給付金も出るし、ソフトウェア開発の現場でWeb周りのこともたくさん学んだし、もっと使いこなせるようになりたい！とMacBook
-              Proを購入し、そのままプログラミング（ひきこもり）生活へと突入したのでありました。まだお遊びですが。みなさま、楽しいクリスマスを！
+            <p style={{fontSize:'2rem'}}>
+              2020年は大変な年でしたね。私はといえば、コロナ到来とともに失業し、世の中大変なうちは引きこもろうとMacBook Proを購入し、そのままプログラミング生活へと突入しました。そのうち仕事できないかな笑。まだお遊びです。ずっとお遊びか？笑2021年は、失われた2020年が取り戻せるような素敵な年になるといいですね！寒さが厳しくなりましたので、ご自愛ください。
               <br />
-              <b>
-                Covid covid covid...upon arrival of covid, I lost my job and a
-                new era started with Macbook Pro, which I bought using benefit
-                paid by government. For the first time in my life, I have TIME
-                for myself and started learning programming. This is a fun thing
-                to do within 1m x 1m space I'm allowed lol! <br />
-                Please do not forget to click the black button at the right top
-                corner!
-              </b>
             </p>
           </div>
         </div>
